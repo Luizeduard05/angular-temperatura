@@ -1,0 +1,17 @@
+.container{
+    padding: 15px;
+}
+
+.img-temp{
+    height: 250px;
+    width: 100%;  
+    padding: 30px;
+}
+
+.img-temp > img{
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}

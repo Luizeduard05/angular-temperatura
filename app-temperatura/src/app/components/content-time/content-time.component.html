@@ -1,0 +1,8 @@
+<div class="container">
+    <section *ngIf="temperatureData">
+        <h3>{{ getCurrentDate() }}</h3>
+        <p>{{ temperatureData.name }}, {{ temperatureData.sys.country }}</p>
+        <em>{{ temperatureData.main.temp| number:'1.0-0' }}°C</em>
+        <p>{{ temperatureData.weather[0].description }}</p>
+    </section>
+</div>

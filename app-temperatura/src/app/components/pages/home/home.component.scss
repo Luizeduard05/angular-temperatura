@@ -1,0 +1,13 @@
+.card-centro{
+    border: solid 1px black;
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 60%;
+    height: 400px;
+    margin: auto;   
+}
+
+.alinha-lado{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
